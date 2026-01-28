@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Sahifa</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f5f5f5;
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* ❌ tashqi scroll yo‘q */
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 16px;
+            text-align: center;
+            max-width: 620px;
+            width: 95%;
+            height: 95vh; /* 🔑 ekran ichida */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            max-width: 220px;
+            width: 100%;
+            margin: 0 auto 15px;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 12px;
+            font-size: 15px;
+            color: #0070f3;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .content {
+            overflow-y: auto; /* ✅ faqat ichida scroll */
+            padding-right: 6px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        hr {
+            margin: 16px 0;
+        }
+
+        /* 📱 Telefon uchun */
+        @media (max-width: 480px) {
+            p {
+                font-size: 13px;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <img src="./logo.jpg" alt="Logo" class="logo" />
+    <i>+998918266128  +998907186028   Baxshillayeva M.A</i>
+    <br>
+    <a href="https://example.com" target="_blank">https://example.com</a>
+    <a href="https://example.com" target="_blank">https://example.com</a>
+    <a href="https://maps.app.goo.gl/1DUnUdEBbzGmXrZX8?g_st=ic" target="_blank">
+        Joylashuv (локация)
+    </a>
+
+    <div class="content">
+        <p>
+            Buxoro Gidlar Assotsiatsiyasi
+            Buxoro shahrida faoliyat yurituvchi rasmiy va litsenziyalangan gidlar
+            — Sharq olamiga ishonchli yo‘l boshlovchingiz
+            Biz shunchaki diqqatga sazovor joylarni ko‘rsatmaymiz —
+            biz Buxoroning jonli tarixi, anʼanalari va sirlarini hikoya qilamiz.
+            Tajribali va litsenziyalangan gidlar
+            Mualliflik ekskursiyalari
+            Individual yondashuv
+            Sayyohlar uchun eng yaxshi marshrutlar
+            Shaxsiy va guruhli ekskursiyalar
+            Buxoro tarixi, afsonalari va Sharqona anʼanalar
+            Turistlar uchun to‘liq xizmat
+            Bir necha tillarda xizmat ko‘rsatish
+            Buxoroni biz bilan kashf eting — chuqur mazmun, jonli hikoyalar va unutilmas taassurotlar.
+        </p>
+
+        <hr>
+
+        <p>
+            Ассоциация гидов Бухары
+            Официальные и лицензированные гиды, работающие в городе Бухара —
+            ваш надёжный проводник в мир Востока.
+            Мы не просто показываем достопримечательности —
+            мы рассказываем живую историю, традиции и исторические тайны, легенды Бухары.
+            Опытные лицензированные гиды
+            Авторские экскурсии
+            Индивидуальный подход
+            Лучшие маршруты для туристов
+            Индивидуальные и групповые экскурсии
+            История Бухары, легенды и восточные традиции
+            Полное сопровождение туристов
+            Экскурсии на нескольких языках
+            Откройте Бухару вместе с нами —
+            глубокий смысл, живые истории и незабываемые впечатления.
+        </p>
+
+        <hr>
+
+        <p>
+            Bukhara Guides Association
+            Official and licensed guides working in the city of Bukhara,
+            bringing and showing you to the world of the East.
+            We don’t simply show landmarks —
+            we share the ancient history, traditions, and secrets, legends of Bukhara.
+            Experienced licensed guides
+            The best itinerary for travelers
+            Private and group tours
+            Bukhara’s history, legends, and Eastern traditions
+            Full assistance for tourists
+            Multilingual guided services
+            Discover Bukhara with us —
+            unforgettable experiences with our team of guides.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
